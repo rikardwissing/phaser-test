@@ -74,15 +74,4 @@ module.exports = {
             }
         ]
     }
-
-    /* node: {
-        fs: 'empty',
-        net: 'empty',
-        tls: 'empty'
-    },
-    resolve: {
-        alias: {
-            'phaser': phaser,
-        }
-    } */
 };
