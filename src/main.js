@@ -14,12 +14,13 @@ const config = {
     width: constants.WIDTH,
     height: constants.HEIGHT,
     physics: {
-        default: 'arcade',
-        arcade: {
+        default: 'matter',
+        matter: {
             gravity: {
-                y: 800
+                x: 0,
+                y: 0
             },
-            debug: false
+            debug: true
         }
     },
     scene: [BootScene]

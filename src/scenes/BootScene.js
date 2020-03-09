@@ -26,8 +26,9 @@ class BootScene extends Phaser.Scene {
         });
 
         this.load.setPath('assets/images/');
-        this.load.image('blue', 'moov2-logo.png');
-        this.load.image('logo', 'moov2-logo.png');
+        this.load.image('teamtailor', 'teamtailor.png');
+
+        // this.load.image('teamtailor', 'moov2-logo.png');
     }
 
     create() {
