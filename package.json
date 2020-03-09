@@ -1,8 +1,8 @@
 {
-    "name": "Phaser3ES6Webpack",
-    "version": "1.1.0",
+    "name": "Phaser3 Test",
+    "version": "0.0.0",
     "description": "",
-    "author": "niklas berg <me@niklasberg.se>",
+    "author": "Teamtailor",
     "main": "index.js",
     "scripts": {
         "start": "webpack --mode=development",
