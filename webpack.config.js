@@ -23,7 +23,7 @@ module.exports = {
     output: {
         pathinfo: true,
         path: path.resolve(__dirname, 'dev'),
-        publicPath: './dev/',
+        publicPath: './',
         library: '[name]',
         libraryTarget: 'umd',
         filename: '[name].js'
@@ -33,7 +33,7 @@ module.exports = {
         definePlugin,
         // new webpack.optimize.CommonsChunkPlugin({ name: 'vendor'/* chunkName= */, filename: 'vendor.bundle.js'/* filename= */ }),
         new HtmlWebpackPlugin({
-            filename: '../index.html',
+            filename: './index.html',
             template: './src/index.html',
             chunks: ['vendor', 'app'],
             chunksSortMode: 'manual',
