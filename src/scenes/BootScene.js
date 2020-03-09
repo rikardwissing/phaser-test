@@ -25,7 +25,6 @@ class BootScene extends Phaser.Scene {
             progress.destroy();
         });
 
-        // this.load.setBaseURL('http://labs.phaser.io');
         this.load.setPath('assets/images/');
         this.load.image('blue', 'moov2-logo.png');
         this.load.image('logo', 'moov2-logo.png');
